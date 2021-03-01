@@ -10,7 +10,7 @@ import { CategoryService } from '../service/category.service';
   styleUrls: ['./category.component.scss']
 })
 export class CategoryComponent implements OnInit {
-  categorys :category []=[];
+  categorys :any =[];
 
 
   constructor(private categoryservice :CategoryService) { }
@@ -21,11 +21,13 @@ export class CategoryComponent implements OnInit {
   }
 
   fetchCategorys(){
-    this.categoryservice.getAllCategory().subscribe(
-      categorys=>{
-        this.categorys=categorys;
-      }
-    );
+
+return this.categoryservice.getAllCategory().subscribe((data : {}) =>{
+  this.categorys=data;
+  console.log(data);
+
+});
+   
   }
 
 }
