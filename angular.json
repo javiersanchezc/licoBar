@@ -31,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -94,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "licoBar"
+  "defaultProject": "licoBar",
+  "cli": {
+    "analytics": "4be085a8-de0a-4e77-951b-e73e117ade4d"
+  }
 }
