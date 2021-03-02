@@ -31,3 +31,4 @@ return this.categoryservice.getAllCategory().subscribe((data : {}) =>{
   }
 
 }
+ 

@@ -1,6 +1,6 @@
 {
     "/api/*": {
-        "trget": "http://localhost:8080",
+        "trget": "https://barres.herokuapp.com/",
         "secure": "false",
         "logLevel": "debug"
 

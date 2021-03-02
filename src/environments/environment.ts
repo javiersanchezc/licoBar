@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url_api: 'http://localhost:8080/api/categoria'
+  url_api: 'https://barres.herokuapp.com/'
 };
 
 /*
